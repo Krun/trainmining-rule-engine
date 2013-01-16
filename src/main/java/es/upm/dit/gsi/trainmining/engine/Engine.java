@@ -50,7 +50,7 @@ public class Engine implements EngineInterface {
 			List<Alarm> alarms) {
         try {
             // load up the knowledge base
-            KnowledgeBase kbase = readKnowledgeBase();
+            KnowledgeBase kbase = readKnowledgeBase(RuleBasePath);
             StatelessKnowledgeSession ksession = kbase.newStatelessKnowledgeSession();
             KnowledgeRuntimeLogger logger = KnowledgeRuntimeLoggerFactory.newFileLogger(ksession, "test");
             // go !
@@ -62,9 +62,9 @@ public class Engine implements EngineInterface {
 		return null;
 	}
 	
-	private static KnowledgeBase readKnowledgeBase() throws Exception {
+	private static KnowledgeBase readKnowledgeBase(String RuleBasePath) throws Exception {
         KnowledgeBuilder kbuilder = KnowledgeBuilderFactory.newKnowledgeBuilder();
-        kbuilder.add(ResourceFactory.newClassPathResource("Sample.drl"), ResourceType.DRL);
+        kbuilder.add(ResourceFactory.newClassPathResource(RuleBasePath), ResourceType.DRL);
         KnowledgeBuilderErrors errors = kbuilder.getErrors();
         if (errors.size() > 0) {
             for (KnowledgeBuilderError error: errors) {
