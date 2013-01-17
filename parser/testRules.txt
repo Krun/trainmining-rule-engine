@@ -1,0 +1,9 @@
+"","rule","precision","recall"
+"1","<{saml.status.channel_A_CS_down,saml.status.channel_A_CS_unknown,saml.status.energy_switch_rack_general_failure},{saml.status.channel_A_CS_unknown}>",0.75707251,0.089034423
+"2","<{saml.status.channel_A_CS_down,saml.status.energy_SAI_line2_nok,saml.status.energy_switch_rack_general_failure},{saml.status.channel_A_CS_unknown}>",0.75474119,0.082784398
+"3","<{saml.status.channel_A_CS_down,saml.status.energy_SAI_line2_nok},{saml.status.channel_A_CS_unknown}>",0.75212214,0.082784398
+"4","<{saml.status.channel_A_CS_down,saml.status.energy_switch_rack_general_failure},{saml.status.channel_A_CS_unknown}>",0.74439233,0.089034423
+"5","<{saml.status.channel_A_CS_down,saml.status.energy_SAI_ST_nok},{saml.status.channel_A_CS_unknown}>",0.7280583,0.0761290948
+"6","<{saml.status.channel_A_CS_down,saml.status.energy_SAI_ST_nok,saml.status.energy_switch_rack_general_failure},{saml.status.channel_A_CS_unknown}>",0.72764163,0.0753226448
+"7","<{saml.status.channel_A_CS_unknown,saml.status.channel_B_CS_unknown,saml.status.energy_generator_running,saml.status.energy_net1_not_present,saml.status.energy_net2_disconnected},{saml.status.channel_A_CS_unknown}>",0.71602635,0.094675266
+"8","<{saml.status.channel_IM_down,saml.status.energy_generator_running},{saml.status.channel_B_CS_unknown}>",0.71527778,0.0331271889
