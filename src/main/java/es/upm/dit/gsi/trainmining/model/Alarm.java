@@ -4,24 +4,29 @@
 package es.upm.dit.gsi.trainmining.model;
 
 /**
- * @author Álvaro
+ * @author 
  *
  */
 public class Alarm {
-
-	private int instalationID;
+ 
+	public Alarm(int installationID, String alarmCode) {
+		super();
+		this.installationID = installationID;
+		this.alarmCode = alarmCode;
+	}
+	private int installationID;
 	private String alarmCode;
 	/**
-	 * @return the instalationID
+	 * @return the installationID
 	 */
-	public int getInstalationID() {
-		return instalationID;
+	public int getInstallationID() {
+		return installationID;
 	}
 	/**
-	 * @param instalationID the instalationID to set
+	 * @param installationID the installationID to set
 	 */
-	public void setInstalationID(int instalationID) {
-		this.instalationID = instalationID;
+	public void setInstallationID(int installationID) {
+		this.installationID = installationID;
 	}
 	/**
 	 * @return the alarmCode

@@ -4,17 +4,25 @@
 package es.upm.dit.gsi.trainmining.model;
 
 /**
- * @author Álvaro
+ * @author ï¿½lvaro
  *
  */
 public class PossibleEvent {
 	
 	private String alarmCode;
 	private String alarmType;
-	private int instalationID;
+	private int installationID;
+	private double confidence; // 0 < confidence < 1
 	
-	// 0 < confidence < 1
-	private double confidence;
+	public PossibleEvent(String alarmCode, String alarmType,
+			int installationID, double confidence) {
+		super();
+		this.alarmCode = alarmCode;
+		this.alarmType = alarmType;
+		this.installationID = installationID;
+		this.confidence = confidence;
+	}
+
 	/**
 	 * @return the alarmCode
 	 */
@@ -40,16 +48,16 @@ public class PossibleEvent {
 		this.alarmType = alarmType;
 	}
 	/**
-	 * @return the instalation
+	 * @return the installationID
 	 */
-	public int getInstalation() {
-		return instalationID;
+	public int getInstallationID() {
+		return installationID;
 	}
 	/**
-	 * @param instalation the instalation to set
+	 * @param installationID the installationID to set
 	 */
-	public void setInstalation(int instalation) {
-		this.instalationID = instalation;
+	public void setInstallationID(int installationID) {
+		this.installationID = installationID;
 	}
 	/**
 	 * @return the confidence

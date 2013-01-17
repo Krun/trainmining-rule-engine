@@ -1,7 +1,8 @@
 package com.sample
  
 import com.sample.DroolsTest.Message;
- 
+
+
 rule "Hello World"
     when
         m : Message( status == Message.HELLO, myMessage : message )

@@ -1,48 +1,129 @@
 <object-stream>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>2</factId>
+  <objectToString>es.upm.dit.gsi.trainmining.model.Alarm@1cebdb2a</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
 <org.drools.audit.event.ActivationLogEvent>
   <type>4</type>
-  <activationId>Hello World [1]</activationId>
-  <rule>Hello World</rule>
-  <declarations>myMessage=Hello World(1); m=com.sample.DroolsTest$Message@2fea1abe(1)</declarations>
+  <activationId>test1 [3, 2]</activationId>
+  <rule>test1</rule>
+  <declarations>b=es.upm.dit.gsi.trainmining.model.Alarm@21246e92(3); iid=3(2); a=es.upm.dit.gsi.trainmining.model.Alarm@1cebdb2a(2)</declarations>
 </org.drools.audit.event.ActivationLogEvent>
 <org.drools.audit.event.ObjectLogEvent>
   <type>1</type>
-  <factId>1</factId>
-  <objectToString>com.sample.DroolsTest$Message@2fea1abe</objectToString>
+  <factId>3</factId>
+  <objectToString>es.upm.dit.gsi.trainmining.model.Alarm@21246e92</objectToString>
 </org.drools.audit.event.ObjectLogEvent>
-<org.drools.audit.event.ActivationLogEvent>
-  <type>6</type>
-  <activationId>Hello World [1]</activationId>
-  <rule>Hello World</rule>
-  <declarations>myMessage=Hello World(1); m=com.sample.DroolsTest$Message@2fea1abe(1)</declarations>
-</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>4</factId>
+  <objectToString>es.upm.dit.gsi.trainmining.model.Alarm@18cb2ac</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
 <org.drools.audit.event.ActivationLogEvent>
   <type>4</type>
-  <activationId>GoodBye [1]</activationId>
-  <rule>GoodBye</rule>
-  <declarations>myMessage=Goodbye cruel world(1)</declarations>
+  <activationId>test1 [5, 4]</activationId>
+  <rule>test1</rule>
+  <declarations>b=es.upm.dit.gsi.trainmining.model.Alarm@3c263aff(5); iid=4(4); a=es.upm.dit.gsi.trainmining.model.Alarm@18cb2ac(4)</declarations>
 </org.drools.audit.event.ActivationLogEvent>
 <org.drools.audit.event.ObjectLogEvent>
-  <type>2</type>
-  <factId>1</factId>
-  <objectToString>com.sample.DroolsTest$Message@2fea1abe</objectToString>
+  <type>1</type>
+  <factId>5</factId>
+  <objectToString>es.upm.dit.gsi.trainmining.model.Alarm@3c263aff</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>6</factId>
+  <objectToString>es.upm.dit.gsi.trainmining.model.Alarm@71eb5a32</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>7</factId>
+  <objectToString>es.upm.dit.gsi.trainmining.model.Alarm@126ec30c</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>8</factId>
+  <objectToString>es.upm.dit.gsi.trainmining.model.Alarm@25c75248</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>9</factId>
+  <objectToString>es.upm.dit.gsi.trainmining.model.Alarm@40eb0858</objectToString>
 </org.drools.audit.event.ObjectLogEvent>
 <org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>test2 [10, 9]</activationId>
+  <rule>test2</rule>
+  <declarations>b=es.upm.dit.gsi.trainmining.model.Alarm@670eab4(10); iid=5(9); a=es.upm.dit.gsi.trainmining.model.Alarm@40eb0858(9)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>10</factId>
+  <objectToString>es.upm.dit.gsi.trainmining.model.Alarm@670eab4</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>11</factId>
+  <objectToString>es.upm.dit.gsi.trainmining.model.Alarm@716e932a</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>test2 [11, 12]</activationId>
+  <rule>test2</rule>
+  <declarations>b=es.upm.dit.gsi.trainmining.model.Alarm@716e932a(11); iid=20(12); a=es.upm.dit.gsi.trainmining.model.Alarm@127fe494(12)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>12</factId>
+  <objectToString>es.upm.dit.gsi.trainmining.model.Alarm@127fe494</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>test2 [11, 12]</activationId>
+  <rule>test2</rule>
+  <declarations>b=es.upm.dit.gsi.trainmining.model.Alarm@716e932a(11); iid=20(12); a=es.upm.dit.gsi.trainmining.model.Alarm@127fe494(12)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
   <type>7</type>
-  <activationId>Hello World [1]</activationId>
-  <rule>Hello World</rule>
-  <declarations>myMessage=Goodbye cruel world(1); m=com.sample.DroolsTest$Message@2fea1abe(1)</declarations>
+  <activationId>test2 [11, 12]</activationId>
+  <rule>test2</rule>
+  <declarations>b=es.upm.dit.gsi.trainmining.model.Alarm@716e932a(11); iid=20(12); a=es.upm.dit.gsi.trainmining.model.Alarm@127fe494(12)</declarations>
 </org.drools.audit.event.ActivationLogEvent>
 <org.drools.audit.event.ActivationLogEvent>
   <type>6</type>
-  <activationId>GoodBye [1]</activationId>
-  <rule>GoodBye</rule>
-  <declarations>myMessage=Goodbye cruel world(1)</declarations>
+  <activationId>test2 [10, 9]</activationId>
+  <rule>test2</rule>
+  <declarations>b=es.upm.dit.gsi.trainmining.model.Alarm@670eab4(10); iid=5(9); a=es.upm.dit.gsi.trainmining.model.Alarm@40eb0858(9)</declarations>
 </org.drools.audit.event.ActivationLogEvent>
 <org.drools.audit.event.ActivationLogEvent>
   <type>7</type>
-  <activationId>GoodBye [1]</activationId>
-  <rule>GoodBye</rule>
-  <declarations>myMessage=Goodbye cruel world(1)</declarations>
+  <activationId>test2 [10, 9]</activationId>
+  <rule>test2</rule>
+  <declarations>b=es.upm.dit.gsi.trainmining.model.Alarm@670eab4(10); iid=5(9); a=es.upm.dit.gsi.trainmining.model.Alarm@40eb0858(9)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>test1 [5, 4]</activationId>
+  <rule>test1</rule>
+  <declarations>b=es.upm.dit.gsi.trainmining.model.Alarm@3c263aff(5); iid=4(4); a=es.upm.dit.gsi.trainmining.model.Alarm@18cb2ac(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>test1 [5, 4]</activationId>
+  <rule>test1</rule>
+  <declarations>b=es.upm.dit.gsi.trainmining.model.Alarm@3c263aff(5); iid=4(4); a=es.upm.dit.gsi.trainmining.model.Alarm@18cb2ac(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>test1 [3, 2]</activationId>
+  <rule>test1</rule>
+  <declarations>b=es.upm.dit.gsi.trainmining.model.Alarm@21246e92(3); iid=3(2); a=es.upm.dit.gsi.trainmining.model.Alarm@1cebdb2a(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>test1 [3, 2]</activationId>
+  <rule>test1</rule>
+  <declarations>b=es.upm.dit.gsi.trainmining.model.Alarm@21246e92(3); iid=3(2); a=es.upm.dit.gsi.trainmining.model.Alarm@1cebdb2a(2)</declarations>
 </org.drools.audit.event.ActivationLogEvent>
 </object-stream>

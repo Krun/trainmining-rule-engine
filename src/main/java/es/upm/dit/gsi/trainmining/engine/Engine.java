@@ -3,6 +3,7 @@
  */
 package es.upm.dit.gsi.trainmining.engine;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.drools.KnowledgeBase;
@@ -11,6 +12,7 @@ import org.drools.logger.KnowledgeRuntimeLoggerFactory;
 import org.drools.runtime.StatelessKnowledgeSession;
 
 import es.upm.dit.gsi.trainmining.model.Alarm;
+import es.upm.dit.gsi.trainmining.model.PossibleEvent;
 import es.upm.dit.gsi.trainmining.model.Prediction;
 
 import org.drools.KnowledgeBaseFactory;
@@ -53,9 +55,15 @@ public class Engine implements EngineInterface {
             KnowledgeBase kbase = readKnowledgeBase(RuleBasePath);
             StatelessKnowledgeSession ksession = kbase.newStatelessKnowledgeSession();
             KnowledgeRuntimeLogger logger = KnowledgeRuntimeLoggerFactory.newFileLogger(ksession, "test");
+            ArrayList<PossibleEvent> resultList = new ArrayList<PossibleEvent>();
+            ksession.setGlobal("resultList",resultList);
             // go !
             ksession.execute(alarms);
             logger.close();
+            Prediction predict = new Prediction();
+            predict.setPrediction(resultList);
+            predict.setCurrentEventsList(alarms);
+            return predict;
         } catch (Throwable t) {
             t.printStackTrace();
         }
