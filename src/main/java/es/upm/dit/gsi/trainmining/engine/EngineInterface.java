@@ -9,12 +9,12 @@ import es.upm.dit.gsi.trainmining.model.Alarm;
 import es.upm.dit.gsi.trainmining.model.Prediction;
 
 /**
- * @author Álvaro
+ * @author ï¿½lvaro
  *
  */
 public interface EngineInterface {
 	
 	public Prediction predict(String RuleBasePath,
-			List<Alarm> alarms);
+			List<Alarm> alarms) throws Exception;
 
 }

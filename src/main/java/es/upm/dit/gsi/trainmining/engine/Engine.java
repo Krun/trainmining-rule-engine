@@ -49,25 +49,20 @@ public class Engine implements EngineInterface {
 	}
 
 	public Prediction predict(String RuleBasePath,
-			List<Alarm> alarms) {
-        try {
+			List<Alarm> alarms) throws Exception {
             // load up the knowledge base
-            KnowledgeBase kbase = readKnowledgeBase(RuleBasePath);
-            StatelessKnowledgeSession ksession = kbase.newStatelessKnowledgeSession();
-            KnowledgeRuntimeLogger logger = KnowledgeRuntimeLoggerFactory.newFileLogger(ksession, "test");
-            ArrayList<PossibleEvent> resultList = new ArrayList<PossibleEvent>();
-            ksession.setGlobal("resultList",resultList);
-            // go !
-            ksession.execute(alarms);
-            logger.close();
-            Prediction predict = new Prediction();
-            predict.setPrediction(resultList);
-            predict.setCurrentEventsList(alarms);
-            return predict;
-        } catch (Throwable t) {
-            t.printStackTrace();
-        }
-		return null;
+        KnowledgeBase kbase = readKnowledgeBase(RuleBasePath);
+        StatelessKnowledgeSession ksession = kbase.newStatelessKnowledgeSession();
+        KnowledgeRuntimeLogger logger = KnowledgeRuntimeLoggerFactory.newFileLogger(ksession, "test");
+        ArrayList<PossibleEvent> resultList = new ArrayList<PossibleEvent>();
+        ksession.setGlobal("resultList",resultList);
+        // go !
+        ksession.execute(alarms);
+        logger.close();
+        Prediction predict = new Prediction();
+        predict.setPrediction(resultList);
+        predict.setCurrentEventsList(alarms);
+        return predict;
 	}
 	
 	private static KnowledgeBase readKnowledgeBase(String RuleBasePath) throws Exception {

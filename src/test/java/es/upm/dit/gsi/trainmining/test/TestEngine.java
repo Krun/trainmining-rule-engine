@@ -15,7 +15,7 @@ import es.upm.dit.gsi.trainmining.model.Prediction;
 public class TestEngine {
 
 	@Test
-	public void test() {
+	public void testEasyRule() throws Exception {
 		Engine e = new Engine();
 		ArrayList<Alarm> alarms = new ArrayList<Alarm>();
 		alarms.add(new Alarm(3,"eventA"));
@@ -28,11 +28,11 @@ public class TestEngine {
 		assertFalse(possibev.contains(nvp));
 	}
 	
-	@Test
-	public void testAlarmCompare() {
-		Alarm a = new Alarm(1,"eventA");
-		Alarm b = new Alarm(1,"eventA");
-		assertEquals(a,b);
+	@Test (expected=Exception.class)
+	public void testInvalidFile() throws Exception {
+			Engine e = new Engine();
+			ArrayList<Alarm> alarms = new ArrayList<Alarm>();
+			e.predict("doesntexist.drl", alarms);
 	}
 
 }
