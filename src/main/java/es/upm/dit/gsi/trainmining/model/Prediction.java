@@ -6,7 +6,7 @@ package es.upm.dit.gsi.trainmining.model;
 import java.util.List;
 
 /**
- * @author Álvaro
+ * @author ï¿½lvaro
  *
  */
 public class Prediction {
@@ -72,6 +72,10 @@ public class Prediction {
 	public void setCurrentEventsList(List<Alarm> currentEventsList) {
 		this.currentEventsList = currentEventsList;
 	}
+	
+
+	
+
 	
 	
 }

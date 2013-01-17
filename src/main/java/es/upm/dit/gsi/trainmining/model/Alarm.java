@@ -41,4 +41,14 @@ public class Alarm {
 		this.alarmCode = alarmCode;
 	}
 	
+	public boolean equals(Object o) {
+		if (o instanceof Alarm) {
+			Alarm a = (Alarm) o;
+			if (this.installationID != a.getInstallationID()) return false;
+			if (!this.alarmCode.equals(a.getAlarmCode())) return false;
+			return true;
+	    }
+	    return false;
+	}
+	
 }

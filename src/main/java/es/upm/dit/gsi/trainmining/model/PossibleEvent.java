@@ -71,5 +71,21 @@ public class PossibleEvent {
 	public void setConfidence(double confidence) {
 		this.confidence = confidence;
 	}
+	
+	/**
+	 * @param o Object to compare to
+	 * @return true if objects refer to same event
+	 */
+	public boolean equals(Object o) {
+		if (o instanceof PossibleEvent) {
+			PossibleEvent a = (PossibleEvent) o;
+			if (this.installationID != a.getInstallationID()) return false;
+			if (!this.alarmCode.equals(a.getAlarmCode())) return false;
+			if (!this.alarmType.equals(a.getAlarmType())) return false;
+			if (this.confidence != a.getConfidence()) return false;
+			return true;
+	    }
+	    return false;
+	}
 
 }
