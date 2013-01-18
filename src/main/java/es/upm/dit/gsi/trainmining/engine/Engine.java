@@ -56,12 +56,14 @@ public class Engine implements EngineInterface {
         KnowledgeRuntimeLogger logger = KnowledgeRuntimeLoggerFactory.newFileLogger(ksession, "test");
         ArrayList<PossibleEvent> resultList = new ArrayList<PossibleEvent>();
         ksession.setGlobal("resultList",resultList);
+        Prediction predict = new Prediction();
+        predict.setInitialTimestamp(System.currentTimeMillis());
         // go !
         ksession.execute(alarms);
         logger.close();
-        Prediction predict = new Prediction();
         predict.setPrediction(resultList);
         predict.setCurrentEventsList(alarms);
+        predict.setFinalTimestamp(System.currentTimeMillis());
         return predict;
 	}
 	
