@@ -82,7 +82,7 @@ public class PossibleEvent {
 			if (this.installationID != a.getInstallationID()) return false;
 			if (!this.alarmCode.equals(a.getAlarmCode())) return false;
 			if (!this.alarmType.equals(a.getAlarmType())) return false;
-			if (this.confidence != a.getConfidence()) return false;
+			//if (this.confidence != a.getConfidence()) return false; Two events are the same even with different confidences
 			return true;
 	    }
 	    return false;

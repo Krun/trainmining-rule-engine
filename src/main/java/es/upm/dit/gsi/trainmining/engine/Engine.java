@@ -51,13 +51,13 @@ public class Engine implements EngineInterface {
 	public Prediction predict(String RuleBasePath,
 			List<Alarm> alarms) throws Exception {
             // load up the knowledge base
+		Prediction predict = new Prediction();
+		predict.setInitialTimestamp(System.currentTimeMillis());
         KnowledgeBase kbase = readKnowledgeBase(RuleBasePath);
         StatelessKnowledgeSession ksession = kbase.newStatelessKnowledgeSession();
         KnowledgeRuntimeLogger logger = KnowledgeRuntimeLoggerFactory.newFileLogger(ksession, "test");
         ArrayList<PossibleEvent> resultList = new ArrayList<PossibleEvent>();
         ksession.setGlobal("resultList",resultList);
-        Prediction predict = new Prediction();
-        predict.setInitialTimestamp(System.currentTimeMillis());
         // go !
         ksession.execute(alarms);
         logger.close();

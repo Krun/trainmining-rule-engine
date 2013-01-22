@@ -2,10 +2,12 @@ import fileinput
 
 __TYPEDIC__ = {}
 __RULENUM__ = 0
+__MINCONFIDENCE__ = 0.5
 
-def parseFile(inputfile,outputfile,typesdic):
-    global __RULENUM__
+def parseFile(inputfile,outputfile,typesdic,minconfidence=__MINCONFIDENCE__):
+    global __RULENUM__, __MINCONFIDENCE__
     __RULENUM__ = 0
+    __MINCONFIDENCE__ = minconfidence
     fout = open(outputfile, "w")
     loadTypeDic(typesdic)
     fout.write("package es.upm.dit.gsi.trainmining;\n\n")
@@ -17,14 +19,15 @@ def parseFile(inputfile,outputfile,typesdic):
     fout.close()
 
 def parseLine(line):
-    global __TYPEDIC__
-    global __RULENUM__
+    global __TYPEDIC__, __RULENUM__, __MINCONFIDENCE__
     if line[1] == '"':
         return ""
     line = line.split('},{')
     LHS = line[0].split(',');
     RHS = line[1].split(',');
     confidence = RHS[1]
+    if (float(confidence) < __MINCONFIDENCE__):
+        return ""
     antecedents = LHS[1:]
     antecedents[0] = antecedents[0].replace('"<{','')
     consequent = RHS[0]

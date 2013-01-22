@@ -2,29 +2,1155 @@
 <org.drools.audit.event.ObjectLogEvent>
   <type>1</type>
   <factId>2</factId>
-  <objectToString>es.upm.dit.gsi.trainmining.model.Alarm@13acb278</objectToString>
+  <objectToString>es.upm.dit.gsi.trainmining.model.Alarm@3167767</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>3</factId>
+  <objectToString>es.upm.dit.gsi.trainmining.model.Alarm@4721e6ee</objectToString>
 </org.drools.audit.event.ObjectLogEvent>
 <org.drools.audit.event.ActivationLogEvent>
   <type>4</type>
-  <activationId>test1 [3, 2]</activationId>
-  <rule>test1</rule>
+  <activationId>rule108 [4, 3, 2]</activationId>
+  <rule>rule108</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule180 [4, 3, 2]</activationId>
+  <rule>rule180</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule252 [4, 3, 2]</activationId>
+  <rule>rule252</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule253 [4, 3, 2]</activationId>
+  <rule>rule253</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule387 [4, 3, 2]</activationId>
+  <rule>rule387</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule529 [4, 3, 2]</activationId>
+  <rule>rule529</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule1331 [4, 3, 2]</activationId>
+  <rule>rule1331</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule3028 [4, 3, 2]</activationId>
+  <rule>rule3028</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule468 [4, 3]</activationId>
+  <rule>rule468</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule617 [4, 3]</activationId>
+  <rule>rule617</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule933 [4, 3]</activationId>
+  <rule>rule933</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule934 [4, 3]</activationId>
+  <rule>rule934</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule1818 [4, 3]</activationId>
+  <rule>rule1818</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule2538 [4, 3]</activationId>
+  <rule>rule2538</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule2539 [4, 3]</activationId>
+  <rule>rule2539</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule3002 [4, 3]</activationId>
+  <rule>rule3002</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule1394 [4]</activationId>
+  <rule>rule1394</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule1952 [4]</activationId>
+  <rule>rule1952</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule2231 [4]</activationId>
+  <rule>rule2231</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule2232 [4]</activationId>
+  <rule>rule2232</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule2672 [4]</activationId>
+  <rule>rule2672</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule2869 [4]</activationId>
+  <rule>rule2869</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule2870 [4]</activationId>
+  <rule>rule2870</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule3616 [4]</activationId>
+  <rule>rule3616</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule893 [4, 2]</activationId>
+  <rule>rule893</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule1395 [4, 2]</activationId>
+  <rule>rule1395</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule1841 [4, 2]</activationId>
+  <rule>rule1841</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule1842 [4, 2]</activationId>
+  <rule>rule1842</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule2025 [4, 2]</activationId>
+  <rule>rule2025</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule2026 [4, 2]</activationId>
+  <rule>rule2026</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule2395 [4, 2]</activationId>
+  <rule>rule2395</rule>
   <declarations>iid=3(2)</declarations>
 </org.drools.audit.event.ActivationLogEvent>
 <org.drools.audit.event.ObjectLogEvent>
   <type>1</type>
-  <factId>3</factId>
-  <objectToString>es.upm.dit.gsi.trainmining.model.Alarm@6e4f7806</objectToString>
+  <factId>4</factId>
+  <objectToString>es.upm.dit.gsi.trainmining.model.Alarm@5294000c</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule0 [5, 4, 3, 2]</activationId>
+  <rule>rule0</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule18 [5, 4, 3, 2]</activationId>
+  <rule>rule18</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule53 [5, 4, 3, 2]</activationId>
+  <rule>rule53</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule54 [5, 4, 3, 2]</activationId>
+  <rule>rule54</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule71 [5, 4, 3, 2]</activationId>
+  <rule>rule71</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule209 [5, 4, 3, 2]</activationId>
+  <rule>rule209</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule378 [5, 4, 3, 2]</activationId>
+  <rule>rule378</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule1660 [5, 4, 3, 2]</activationId>
+  <rule>rule1660</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule27 [5, 4, 3]</activationId>
+  <rule>rule27</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule80 [5, 4, 3]</activationId>
+  <rule>rule80</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule173 [5, 4, 3]</activationId>
+  <rule>rule173</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule313 [5, 4, 3]</activationId>
+  <rule>rule313</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule314 [5, 4, 3]</activationId>
+  <rule>rule314</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule745 [5, 4, 3]</activationId>
+  <rule>rule745</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule1137 [5, 4, 3]</activationId>
+  <rule>rule1137</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule2677 [5, 4, 3]</activationId>
+  <rule>rule2677</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule778 [5, 4]</activationId>
+  <rule>rule778</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule1652 [5, 4]</activationId>
+  <rule>rule1652</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule2286 [5, 4]</activationId>
+  <rule>rule2286</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule2287 [5, 4]</activationId>
+  <rule>rule2287</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule2634 [5, 4]</activationId>
+  <rule>rule2634</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule2635 [5, 4]</activationId>
+  <rule>rule2635</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule2878 [5, 4]</activationId>
+  <rule>rule2878</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule3466 [5, 4]</activationId>
+  <rule>rule3466</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule791 [5, 4, 2]</activationId>
+  <rule>rule791</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule1773 [5, 4, 2]</activationId>
+  <rule>rule1773</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule2349 [5, 4, 2]</activationId>
+  <rule>rule2349</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule2350 [5, 4, 2]</activationId>
+  <rule>rule2350</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule2475 [5, 4, 2]</activationId>
+  <rule>rule2475</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule2476 [5, 4, 2]</activationId>
+  <rule>rule2476</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule2808 [5, 4, 2]</activationId>
+  <rule>rule2808</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule3481 [5, 4, 2]</activationId>
+  <rule>rule3481</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>5</factId>
+  <objectToString>es.upm.dit.gsi.trainmining.model.Alarm@3076934c</objectToString>
 </org.drools.audit.event.ObjectLogEvent>
 <org.drools.audit.event.ActivationLogEvent>
   <type>6</type>
-  <activationId>test1 [3, 2]</activationId>
-  <rule>test1</rule>
+  <activationId>rule3481 [5, 4, 2]</activationId>
+  <rule>rule3481</rule>
   <declarations>iid=3(2)</declarations>
 </org.drools.audit.event.ActivationLogEvent>
 <org.drools.audit.event.ActivationLogEvent>
   <type>7</type>
-  <activationId>test1 [3, 2]</activationId>
-  <rule>test1</rule>
+  <activationId>rule3481 [5, 4, 2]</activationId>
+  <rule>rule3481</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule2808 [5, 4, 2]</activationId>
+  <rule>rule2808</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule2808 [5, 4, 2]</activationId>
+  <rule>rule2808</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule2476 [5, 4, 2]</activationId>
+  <rule>rule2476</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule2476 [5, 4, 2]</activationId>
+  <rule>rule2476</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule2475 [5, 4, 2]</activationId>
+  <rule>rule2475</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule2475 [5, 4, 2]</activationId>
+  <rule>rule2475</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule2350 [5, 4, 2]</activationId>
+  <rule>rule2350</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule2350 [5, 4, 2]</activationId>
+  <rule>rule2350</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule2349 [5, 4, 2]</activationId>
+  <rule>rule2349</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule2349 [5, 4, 2]</activationId>
+  <rule>rule2349</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule1773 [5, 4, 2]</activationId>
+  <rule>rule1773</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule1773 [5, 4, 2]</activationId>
+  <rule>rule1773</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule791 [5, 4, 2]</activationId>
+  <rule>rule791</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule791 [5, 4, 2]</activationId>
+  <rule>rule791</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule3466 [5, 4]</activationId>
+  <rule>rule3466</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule3466 [5, 4]</activationId>
+  <rule>rule3466</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule2878 [5, 4]</activationId>
+  <rule>rule2878</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule2878 [5, 4]</activationId>
+  <rule>rule2878</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule2635 [5, 4]</activationId>
+  <rule>rule2635</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule2635 [5, 4]</activationId>
+  <rule>rule2635</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule2634 [5, 4]</activationId>
+  <rule>rule2634</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule2634 [5, 4]</activationId>
+  <rule>rule2634</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule2287 [5, 4]</activationId>
+  <rule>rule2287</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule2287 [5, 4]</activationId>
+  <rule>rule2287</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule2286 [5, 4]</activationId>
+  <rule>rule2286</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule2286 [5, 4]</activationId>
+  <rule>rule2286</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule1652 [5, 4]</activationId>
+  <rule>rule1652</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule1652 [5, 4]</activationId>
+  <rule>rule1652</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule778 [5, 4]</activationId>
+  <rule>rule778</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule778 [5, 4]</activationId>
+  <rule>rule778</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule2677 [5, 4, 3]</activationId>
+  <rule>rule2677</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule2677 [5, 4, 3]</activationId>
+  <rule>rule2677</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule1137 [5, 4, 3]</activationId>
+  <rule>rule1137</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule1137 [5, 4, 3]</activationId>
+  <rule>rule1137</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule745 [5, 4, 3]</activationId>
+  <rule>rule745</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule745 [5, 4, 3]</activationId>
+  <rule>rule745</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule314 [5, 4, 3]</activationId>
+  <rule>rule314</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule314 [5, 4, 3]</activationId>
+  <rule>rule314</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule313 [5, 4, 3]</activationId>
+  <rule>rule313</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule313 [5, 4, 3]</activationId>
+  <rule>rule313</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule173 [5, 4, 3]</activationId>
+  <rule>rule173</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule173 [5, 4, 3]</activationId>
+  <rule>rule173</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule80 [5, 4, 3]</activationId>
+  <rule>rule80</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule80 [5, 4, 3]</activationId>
+  <rule>rule80</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule27 [5, 4, 3]</activationId>
+  <rule>rule27</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule27 [5, 4, 3]</activationId>
+  <rule>rule27</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule1660 [5, 4, 3, 2]</activationId>
+  <rule>rule1660</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule1660 [5, 4, 3, 2]</activationId>
+  <rule>rule1660</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule378 [5, 4, 3, 2]</activationId>
+  <rule>rule378</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule378 [5, 4, 3, 2]</activationId>
+  <rule>rule378</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule209 [5, 4, 3, 2]</activationId>
+  <rule>rule209</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule209 [5, 4, 3, 2]</activationId>
+  <rule>rule209</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule71 [5, 4, 3, 2]</activationId>
+  <rule>rule71</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule71 [5, 4, 3, 2]</activationId>
+  <rule>rule71</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule54 [5, 4, 3, 2]</activationId>
+  <rule>rule54</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule54 [5, 4, 3, 2]</activationId>
+  <rule>rule54</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule53 [5, 4, 3, 2]</activationId>
+  <rule>rule53</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule53 [5, 4, 3, 2]</activationId>
+  <rule>rule53</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule18 [5, 4, 3, 2]</activationId>
+  <rule>rule18</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule18 [5, 4, 3, 2]</activationId>
+  <rule>rule18</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule0 [5, 4, 3, 2]</activationId>
+  <rule>rule0</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule0 [5, 4, 3, 2]</activationId>
+  <rule>rule0</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule2395 [4, 2]</activationId>
+  <rule>rule2395</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule2395 [4, 2]</activationId>
+  <rule>rule2395</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule2026 [4, 2]</activationId>
+  <rule>rule2026</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule2026 [4, 2]</activationId>
+  <rule>rule2026</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule2025 [4, 2]</activationId>
+  <rule>rule2025</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule2025 [4, 2]</activationId>
+  <rule>rule2025</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule1842 [4, 2]</activationId>
+  <rule>rule1842</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule1842 [4, 2]</activationId>
+  <rule>rule1842</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule1841 [4, 2]</activationId>
+  <rule>rule1841</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule1841 [4, 2]</activationId>
+  <rule>rule1841</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule1395 [4, 2]</activationId>
+  <rule>rule1395</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule1395 [4, 2]</activationId>
+  <rule>rule1395</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule893 [4, 2]</activationId>
+  <rule>rule893</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule893 [4, 2]</activationId>
+  <rule>rule893</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule3616 [4]</activationId>
+  <rule>rule3616</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule3616 [4]</activationId>
+  <rule>rule3616</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule2870 [4]</activationId>
+  <rule>rule2870</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule2870 [4]</activationId>
+  <rule>rule2870</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule2869 [4]</activationId>
+  <rule>rule2869</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule2869 [4]</activationId>
+  <rule>rule2869</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule2672 [4]</activationId>
+  <rule>rule2672</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule2672 [4]</activationId>
+  <rule>rule2672</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule2232 [4]</activationId>
+  <rule>rule2232</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule2232 [4]</activationId>
+  <rule>rule2232</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule2231 [4]</activationId>
+  <rule>rule2231</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule2231 [4]</activationId>
+  <rule>rule2231</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule1952 [4]</activationId>
+  <rule>rule1952</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule1952 [4]</activationId>
+  <rule>rule1952</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule1394 [4]</activationId>
+  <rule>rule1394</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule1394 [4]</activationId>
+  <rule>rule1394</rule>
+  <declarations>iid=3(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule3002 [4, 3]</activationId>
+  <rule>rule3002</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule3002 [4, 3]</activationId>
+  <rule>rule3002</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule2539 [4, 3]</activationId>
+  <rule>rule2539</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule2539 [4, 3]</activationId>
+  <rule>rule2539</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule2538 [4, 3]</activationId>
+  <rule>rule2538</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule2538 [4, 3]</activationId>
+  <rule>rule2538</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule1818 [4, 3]</activationId>
+  <rule>rule1818</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule1818 [4, 3]</activationId>
+  <rule>rule1818</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule934 [4, 3]</activationId>
+  <rule>rule934</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule934 [4, 3]</activationId>
+  <rule>rule934</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule933 [4, 3]</activationId>
+  <rule>rule933</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule933 [4, 3]</activationId>
+  <rule>rule933</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule617 [4, 3]</activationId>
+  <rule>rule617</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule617 [4, 3]</activationId>
+  <rule>rule617</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule468 [4, 3]</activationId>
+  <rule>rule468</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule468 [4, 3]</activationId>
+  <rule>rule468</rule>
+  <declarations>iid=3(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule3028 [4, 3, 2]</activationId>
+  <rule>rule3028</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule3028 [4, 3, 2]</activationId>
+  <rule>rule3028</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule1331 [4, 3, 2]</activationId>
+  <rule>rule1331</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule1331 [4, 3, 2]</activationId>
+  <rule>rule1331</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule529 [4, 3, 2]</activationId>
+  <rule>rule529</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule529 [4, 3, 2]</activationId>
+  <rule>rule529</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule387 [4, 3, 2]</activationId>
+  <rule>rule387</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule387 [4, 3, 2]</activationId>
+  <rule>rule387</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule253 [4, 3, 2]</activationId>
+  <rule>rule253</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule253 [4, 3, 2]</activationId>
+  <rule>rule253</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule252 [4, 3, 2]</activationId>
+  <rule>rule252</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule252 [4, 3, 2]</activationId>
+  <rule>rule252</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule180 [4, 3, 2]</activationId>
+  <rule>rule180</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule180 [4, 3, 2]</activationId>
+  <rule>rule180</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule108 [4, 3, 2]</activationId>
+  <rule>rule108</rule>
+  <declarations>iid=3(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule108 [4, 3, 2]</activationId>
+  <rule>rule108</rule>
   <declarations>iid=3(2)</declarations>
 </org.drools.audit.event.ActivationLogEvent>
 </object-stream>
