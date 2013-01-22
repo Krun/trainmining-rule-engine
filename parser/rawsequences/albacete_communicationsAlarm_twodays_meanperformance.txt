@@ -1,2 +1,0 @@
-"","rule","precision","recall"
-"1","<{SAMEL_CM_communication_DOWN},{SAMEL_CM_communication_DOWN}>",0.3950503,0.3950503
